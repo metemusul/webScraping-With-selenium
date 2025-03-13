@@ -18,8 +18,8 @@ from getpass import getpass
 
 url = "https://www.google.com/"
 
-username = getpass("Username:musulmete129@gmail.com")
-password = getpass("Password:Preomygame23231.")
+username = getpass("yourmail")
+password = getpass("yourpassword")
 
 service = Service(ChromeDriverManager().install())
 browser = uc.Chrome(service=service)
